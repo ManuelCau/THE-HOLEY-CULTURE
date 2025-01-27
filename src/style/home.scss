@@ -1,0 +1,14 @@
+@use "./abstract/colors.scss" as *;
+@use "./abstract/font.scss" as *;
+
+.prova {
+  background-color: $orange;
+  width: 600px;
+  height: 400px;
+  font-family: $headerWeb;
+  font-size: $FS-headerWeb;
+}
+p {
+  font-family: $buttonText;
+  font-size: $FS-buttonText;
+}

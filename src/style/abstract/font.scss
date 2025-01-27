@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("/src/assets/fonts/Montserrat-Italic-VariableFont_wght.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("/src/assets/fonts/Montserrat-VariableFont_wght.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "OrelegaOne";
+  src: url("/src/assets/fonts/OrelegaOne-Regular.ttf") format("truetype");
+}
+
+
+
+//variabili testo
+
+$headerWeb: "OrelegaOne", sans-serif;
+$paragraphTitle: "Montserrat", sans-serif;
+$paragraph: "Montserrat", sans-serif;
+$buttonText: "Montserrat", sans-serif;
+
+//dimensioni font
+//FS = font-size
+
+$FS-headerWeb: 2rem;
+$FS-paragraphTitle: 1.938rem;
+$FS-paragraph: 1.25rem;
+$FS-buttonText: 1.938rem;
+
+//impostare quelle per mobile
