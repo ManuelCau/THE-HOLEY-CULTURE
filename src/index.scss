@@ -1,6 +1,15 @@
-@forward "./style/abstract/colors.scss" ;
+@forward "./style/abstract/colors.scss";
 @forward "./Style/home.scss";
+@forward "./Style/navBar.scss";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-/* body{
-    
-} */
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+
