@@ -1,0 +1,36 @@
+@use "./abstract/colors.scss" as *;
+@use "./abstract/font.scss" as *;
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 100px;
+  position: absolute;
+  top: 50px;
+  width: 100%;
+  z-index: 1;
+}
+
+.HoleyLogo {
+  height: 54px;
+}
+
+.linkList {
+  font-family: $paragraphTitle;
+  font-size: $FS-paragraph;
+  display: flex;
+  gap: 50px;
+}
+
+.navLink {
+  color: white;
+  text-decoration: none;
+}
+
+.socialLogos {
+  display: flex;
+  gap: 40px;
+  height: 35px;
+}
