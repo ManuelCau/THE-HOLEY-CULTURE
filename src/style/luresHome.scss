@@ -1,0 +1,61 @@
+@use "./abstract/colors.scss" as *;
+@use "./abstract/font.scss" as *;
+
+.lureBox {
+  position: absolute;
+  top: 100vh;
+  left: 50%;
+  color:$green;
+  margin-top: 50px;
+  font-family: $headerWeb;
+  font-size: $FS-headerWeb;
+
+  .luresHome {
+    transform: translateX(-50%);
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 100px;
+    padding: 20px;
+    margin-top: 30px;
+
+    p {
+      font-family: $paragraph;
+      font-size: $FS-paragraph;
+      color: rgb(255, 255, 255);
+      width: 30vw;
+      text-align: justify;
+      
+    }
+
+    img {
+      width: 20vw;
+      border-radius: 20%;
+    }
+
+    .lureParagraph{
+      display: flex;
+      flex-direction: column;
+     gap:30px;
+     justify-content: center;
+
+     button{
+width: fit-content;
+padding: 20px 60px;
+border-radius: 30px;
+align-self: center;
+border-color: transparent;
+font-family: $buttonText;
+
+&:hover{
+  border-color: white;
+  background-color: transparent;
+  color: white;
+  transform: scale(1.1);
+  transition: ease-in-out 0.5s;
+}
+     }
+    }
+  }
+}
