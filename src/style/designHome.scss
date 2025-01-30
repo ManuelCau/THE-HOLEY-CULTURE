@@ -1,49 +1,42 @@
 @use "./abstract/colors.scss" as *;
 @use "./abstract/font.scss" as *;
 
-.lureBox {
+.designBox {
   width: 60vw;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  color: $green;
-  margin-top: 50px;
-  font-family: $headerWeb;
-  font-size: $FS-headerWeb;
-h2{
-  font-size: $FS-headerWeb ;
-  font-family: $headerWeb;
-  ;
-}
-  .luresHome {
+  gap: 50px;
+
+  h2 {
+    color: $green;
+    margin-top: 50px;
+    font-family: $headerWeb;
+    font-size: $FS-headerWeb;
+  }
+
+  .designElements {
     display: flex;
     gap: 50px;
     justify-content: center;
+
     align-items: flex-start;
-    padding: 20px;
-    margin-top: 30px;
 
-    p {
-      font-family: $paragraph;
-      font-size: $FS-paragraph;
-      color: rgb(255, 255, 255);
-      width: 20vw;
-      text-align: justify;
-     
-    }
-
-    img {
-      width: 20vw;
-      border-radius: 20%;
-    }
-
-    .lureParagraph {
+    .designParagraph {
       display: flex;
       flex-direction: column;
       gap: 30px;
-      justify-content: center;
+      
+
+      p {
+        font-family: $paragraph;
+        font-size: $FS-paragraph;
+        color: rgb(255, 255, 255);
+        width: 20vw;
+        text-align: justify;
+      }
 
       button {
         width: fit-content;
@@ -62,6 +55,11 @@ h2{
           transform: scale(1.1);
         }
       }
+    }
+
+    img {
+      width: 20vw;
+      border-radius: 20%;
     }
   }
 }
