@@ -13,8 +13,6 @@
   src: url("/src/assets/fonts/OrelegaOne-Regular.ttf") format("truetype");
 }
 
-
-
 //variabili testo
 
 $headerWeb: "OrelegaOne", sans-serif;
@@ -25,9 +23,9 @@ $buttonText: "Montserrat", sans-serif;
 //dimensioni font
 //FS = font-size
 
-$FS-headerWeb: 2rem;
+$FS-headerWeb: 4rem;
 $FS-paragraphTitle: 1.938rem;
 $FS-paragraph: 1.25rem;
-$FS-buttonText: 1.938rem;
+$FS-buttonText: 2rem;
 
 //impostare quelle per mobile
