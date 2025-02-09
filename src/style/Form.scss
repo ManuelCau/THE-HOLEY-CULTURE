@@ -1,0 +1,19 @@
+@use "./abstract/colors.scss" as *;
+@use "./abstract/font.scss" as *;
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 30vw;
+  justify-content: center;
+  align-items: center;
+  background-color: $orange;
+  z-index: 3;
+}
+
+.prova {
+  background-color: brown;
+  height: 200px;
+  width: 100vw;
+}

@@ -1,11 +1,12 @@
 @forward "./style/abstract/colors.scss";
 @forward "./Style/home.scss";
 @forward "./Style/navBar.scss";
-@forward './style/luresHome.scss';
-@forward './style/designHome.scss';
-@forward './style/abstract/backgroundMapDark.scss';
-@forward './style/headerHome.scss';
-
+@forward "./style/luresHome.scss";
+@forward "./style/designHome.scss";
+@forward "./style/backgroundMapDark.scss";
+@forward "./style/headerHome.scss";
+@forward "./style/footer.scss";
+@forward "./style/Form.scss";
 
 * {
   margin: 0;
@@ -13,9 +14,8 @@
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   width: 100%;
   height: 100%;
 }
-
-

@@ -28,10 +28,11 @@ export function Navbar() {
       </div>
       <div className="socialLogos">
         <Link to="https://www.instagram.com/the_holey_culture/">
-          <img src={InstaLogo} alt="instagram" className="socialLogos"/>
+          <img src={InstaLogo} alt="instagram" className="socialLogos" />
         </Link>
-        <Link to='https://youtu.be/F9GM6QuDzNs'><img src={YTLogo} alt="YouTube" className="socialLogos"/></Link>
-        
+        <Link to="https://youtu.be/F9GM6QuDzNs">
+          <img src={YTLogo} alt="YouTube" className="socialLogos" />
+        </Link>
       </div>
     </div>
   );

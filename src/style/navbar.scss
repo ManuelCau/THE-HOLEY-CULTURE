@@ -27,6 +27,11 @@
 .navLink {
   color: white;
   text-decoration: none;
+  transition: ease-in-out 0.2s;
+  &:hover {
+    color: $green;
+    transform: scale(1.1);
+  }
 }
 
 .socialLogos {
