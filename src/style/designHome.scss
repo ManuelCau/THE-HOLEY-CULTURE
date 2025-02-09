@@ -2,8 +2,7 @@
 @use "./abstract/font.scss" as *;
 
 .designBox {
-  width: 60vw;
-  margin: 0 auto;
+  width: 60%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -12,7 +11,6 @@
 
   h2 {
     color: $green;
-    margin-top: 50px;
     font-family: $headerWeb;
     font-size: $FS-headerWeb;
   }
@@ -45,9 +43,8 @@
         align-self: center;
         border-color: transparent;
         font-family: $buttonText;
+        font-size: $FS-buttonText;
         transition: ease-in-out 0.5s;
-        margin-top: 50px;
-
         &:hover {
           border-color: white;
           background-color: transparent;
@@ -58,7 +55,7 @@
     }
 
     img {
-      width: 20vw;
+      width: 15vw;
       border-radius: 20%;
     }
   }

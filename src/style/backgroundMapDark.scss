@@ -1,0 +1,23 @@
+.backgroundMap {
+  width: 100vw;
+  position: relative;
+  z-index: 0;
+  display: flex;
+  flex-direction: column;
+  background-image: url('../src/assets/Background/sfondo-map.svg'); 
+  background-size: cover; 
+  background-attachment: fixed; 
+  background-position: center;
+  align-items: center;
+ 
+
+  .mapImage {
+    position: absolute;
+    z-index: -1;
+    height: auto;
+    width: 100vw;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
