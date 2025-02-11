@@ -1,0 +1,25 @@
+//stile riutilizzabile per tutti gli headers delle varie pagine
+
+.headerBox {
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .headerTitle {
+    position: absolute;
+   /*  width: 30%; */
+   height: 15%;
+  }
+  video {
+    width: 100%;
+    height: inherit;
+    object-fit: cover;
+  }
+  .imgHeader {
+    width: 100%;
+    height: inherit;
+    object-fit: cover;
+  }
+}

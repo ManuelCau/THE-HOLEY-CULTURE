@@ -1,10 +1,16 @@
-import lure from "../assets/images/lures.png";
+/* import sgombro from "../assets/images/SGOMBHOLEY.jpg";
+ */import salmerino from "../assets/images/salmerino2.jpg";
 
 export function DesignHome() {
   return (
     <div className="designBox">
       <h2>DESIGN</h2>
       <div className="designElements">
+        
+        <div className="designImages">
+{/*           <img src={sgombro} alt="holeyIllustration" loading="lazy" />
+ */}          <img src={salmerino} alt="holeyIllustration" loading="lazy" />
+        </div>
         <div className="designParagraph">
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -25,7 +31,6 @@ export function DesignHome() {
           </p>
           <button>SHOW MORE</button>
         </div>
-        <img src={lure} alt="holeyLures" loading="lazy" />
       </div>
     </div>
   );

@@ -1,19 +1,81 @@
 @use "./abstract/colors.scss" as *;
 @use "./abstract/font.scss" as *;
 
-.form {
+.formContainer {
   display: flex;
   flex-direction: column;
-  gap: 30px;
-  width: 30vw;
+  width: 100vw;
   justify-content: center;
   align-items: center;
-  background-color: $orange;
-  z-index: 3;
+  padding: 100px;
+  p {
+    color: $green;
+    font-family: $paragraph;
+    font-size: $FS-paragraph;
+    padding-bottom: 50px;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    border: solid $orange;
+    background-color: rgba(0, 0, 0, 0.616);
+    z-index: 3;
+    padding: 50px;
+    border-radius: 40px;
+
+    label {
+      font-family: $paragraph;
+      font-size: $FS-paragraph;
+      color: white;
+    }
+    input {
+      padding: 10px;
+      width: 80%;
+      margin: 20px;
+      border-radius: 10px;
+      border-color: transparent;
+    }
+    textarea {
+      padding: 10px;
+      width: 80%;
+      margin: 20px;
+      border-radius: 10px;
+      border-color: transparent;
+    }
+    button {
+      width: fit-content;
+      padding: 20px 40px;
+      margin-top: 20px;
+      border-radius: 30px;
+      align-self: center;
+      border-color: transparent;
+      font-family: $buttonText;
+      font-size: $FS-buttonText;
+      transition: ease-in-out 0.5s;
+      &:hover {
+        border-color: white;
+        background-color: transparent;
+        color: white;
+        transform: scale(1.1);
+      }
+    }
+  }
 }
 
-.prova {
-  background-color: brown;
-  height: 200px;
+//esito completamento form dopo il submit
+.formResponse{
   width: 100vw;
+  padding: 100px;
+  margin:100px;
+  display: flex;
+  justify-content: center;
+
+  p{
+    font-family: $headerWeb;
+    font-size: $FS-headerWeb;
+    color: white;
+  }
 }

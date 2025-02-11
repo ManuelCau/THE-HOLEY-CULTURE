@@ -1,7 +1,7 @@
 import { LuresHome } from "../LuresHome";
 import { DesignHome } from "../DesignHome";
 import { BackGroundMap } from "../BackgroundMap";
-import { HeaderHome } from "../HeaderHome";
+import { HeaderHome } from "../Headers/HeaderHome";
 import { ContactForm } from "../ContactForm";
 
 export function Home() {

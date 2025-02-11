@@ -6,7 +6,6 @@ import YTLogo from "../assets/SVG/Logos/YT-LOGO.svg";
 export function Footer() {
   return (
     <div className="footerBox">
-     
       <div className="footer">
         <Link to="/">
           <img src={Logo} alt="Holey" className="HoleyLogo" />
@@ -17,7 +16,7 @@ export function Footer() {
             <Link to="/">LURES</Link>
             <Link to="/">DESIGN</Link>
             <Link to="/">CULTURE</Link>
-            <Link to="/">CONTACT</Link>
+            <Link to="/Contact">CONTACT</Link>
           </div>
           <div className="socialFooterLogos">
             <Link to="https://www.instagram.com/the_holey_culture/">
