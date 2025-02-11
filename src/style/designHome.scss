@@ -2,7 +2,7 @@
 @use "./abstract/font.scss" as *;
 
 .designBox {
-  width: 60%;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -19,20 +19,22 @@
     display: flex;
     gap: 50px;
     justify-content: center;
-
     align-items: flex-start;
+    padding: 20px;
+    margin-top: 30px;
+    width: 50%;
 
     .designParagraph {
       display: flex;
       flex-direction: column;
       gap: 30px;
-      
+    
 
       p {
         font-family: $paragraph;
         font-size: $FS-paragraph;
         color: rgb(255, 255, 255);
-        width: 20vw;
+       
         text-align: justify;
       }
 
@@ -53,10 +55,16 @@
         }
       }
     }
-
-    img {
-      width: 15vw;
-      border-radius: 20%;
+    .designImages {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      img {
+        width: 80%;
+        border-radius: 20%;
+        border: solid $yellow 4px;
+      }
     }
   }
 }

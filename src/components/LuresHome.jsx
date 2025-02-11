@@ -1,4 +1,4 @@
-import lure from "../assets/images/lures.png";
+import lures from "../assets/SVG/holey-lures.svg";
 
 export function LuresHome() {
   return (
@@ -27,7 +27,7 @@ export function LuresHome() {
           <button>SHOW MORE</button>
         </div>
 
-        <img src={lure} alt="holeyLures" loading="lazy" />
+        <img src={lures} alt="holeyLures" loading="lazy" />
       </div>
     </div>
   );

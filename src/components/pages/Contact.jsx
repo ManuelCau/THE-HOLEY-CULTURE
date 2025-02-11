@@ -1,13 +1,14 @@
-import { BackGroundMap } from "../BackgroundMap";
+import { BackgroundMapClear } from "../BackgroundMapClear";
 import { ContactForm } from "../ContactForm";
+import { HeaderContacts } from "../Headers/HeaderContacts";
 
 export function Contact() {
   return (
     <div>
-      <div className="prova"></div>
-      <BackGroundMap>
+      <HeaderContacts />
+      <BackgroundMapClear>
         <ContactForm />
-      </BackGroundMap>
+      </BackgroundMapClear>
     </div>
   );
 }
