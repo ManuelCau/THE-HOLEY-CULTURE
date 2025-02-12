@@ -1,0 +1,43 @@
+@use "./abstract/colors.scss" as *;
+@use "./abstract/font.scss" as *;
+
+.cultureBox {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  gap: 60px;
+
+  img {
+    width: 60%;
+    border-radius: 10%;
+    transition: ease-out 0.2s;
+    &:hover {
+      border: solid $yellow 4px;
+      transform: scale(1.1);
+      margin-bottom: 20px;
+      box-shadow: 0 20px 15px rgba(71, 71, 71, 0.267);
+    }
+  }
+  p {
+    width: 60%;
+    margin-top: 20px;
+    text-align: justify;
+    font-family: $paragraph;
+    font-size: $FS-paragraph;
+  }
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: ease-out 0.2s;
+    padding: 30px;
+
+    .catch {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: flex-end;
+    }
+  }
+}
