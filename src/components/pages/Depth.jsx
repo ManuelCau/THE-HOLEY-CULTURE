@@ -1,14 +1,11 @@
 import { BackgroundMapClear } from "../BackgroundMapClear";
 import { ContactForm } from "../ContactForm";
-import { HeaderContacts } from "../Headers/HeaderContacts";
+import { HeaderDepth } from "../Headers/HeaderDepth";
 
-
-
-
-export function Contact() {
+export function Depth() {
   return (
     <div>
-      <HeaderContacts />
+      <HeaderDepth />
       <BackgroundMapClear>
         <ContactForm />
       </BackgroundMapClear>

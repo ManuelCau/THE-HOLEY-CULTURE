@@ -12,10 +12,10 @@ export function Footer() {
         </Link>
         <div>
           <div className="footerLinks">
-            <Link to="/">ABOUT</Link>
-            <Link to="/">LURES</Link>
-            <Link to="/">DESIGN</Link>
-            <Link to="/">CULTURE</Link>
+            <Link to="/About">ABOUT</Link>
+            <Link to="/Lures">LURES</Link>
+            <Link to="/Design">DESIGN</Link>
+            <Link to="/Culture">CULTURE</Link>
             <Link to="/Contact">CONTACT</Link>
           </div>
           <div className="socialFooterLogos">
